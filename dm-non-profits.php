@@ -5,7 +5,7 @@ Plugin Name: Missoula Non Profits
 Plugin URI: http://www.missoulamadefair.com/
 Description: Used by Millions to make WordPress better.
 Author: Bradford Knowlton
-Version: 1.9.8
+Version: 1.9.9
 Author URI: http://bradknowlton.com/
 
 GitHub Plugin URI: https://github.com/DesignMissoula/DM-non-profits
@@ -13,7 +13,7 @@ GitHub Branch: master
 
 */
 
-DEFINE('NON_PROFIT_SLUG', 'winter_2014_');
+DEFINE('NON_PROFIT_SLUG', '2014_');
 
 add_action( 'init', 'register_cpt_missoula_non_profit' );
 
